@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Smithy Lane Podiatry</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+/* Style the header */
+.header {
+  background-color: mediumOrchid;
+  padding: 20px;
+  text-align: center;
+  color: white;
+}
+
+/* Create three unequal columns that floats next to each other */
+.column {
+  float: left;
+  padding: 10px;
+}
+
+/* Left and right column */
+.column.side {
+  width: 20%;
+}
+
+/* Middle column */
+.column.middle {
+  width: 60%;
+}
+
+/* Clear floats after the columns */
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column.side, .column.middle {
+    width: 100%;
+  }
+}
+
+/* Style the footer */
+.footer {
+  background-color: mediumOrchid;
+  padding: 10px;
+  text-align: center;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 55%;
+}
+.centersmall2 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.button {
+        border: double;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 14px;
+        margin: 4px 1px;
+        cursor: pointer;
+}
+.button1 {background-color: MediumOrchid;
+    color: white;
+} 
+.button1:hover {
+    background-color: greenyellow;
+    color: black;
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Smithy Lane Podiatry and Aesthetics Clinic</h1>
+</div>
+
+<!-- First of three columns, showing a picture of Mhari -->
+
+<div class="row">
+  <div class="column side">
+    <h3></h3>
+    <img src="MhariPortraitLowRes.png"
+			alt="Mhari Portrait" 
+			class="centersmall2" 			
+			height="150" 
+			width="100"
+    >
+    <p><strong>Phone:</strong> 01253 522127</p>
+    <p><strong>Mobile:</strong> 07718 286956</p>
+    <p><strong>Email:</strong>: <a href="mailto:Smithylanepodiatry@gmail.com"><strong>SmithyLanePodiatry@gmail.com</strong></a></p>
+  </div>
+  
+  <div class="column middle">
+    	<p>
+		    Hi everyone, my name is Mhari, I am a fully qualified Podiatrist and Aesthetics practitioner. I am also a non-medical prescriber which allows me to prescribe for my patients when required.
+		</p>
+		<p>
+			I have been involved in the Beauty Therapy industry for more than 30 years and I have had the privilege of being a head of department for Hairdressing and Beauty Therapy in two separate colleges in Lancashire. I have also worked in various clinics and health farms from which grew my interest in Aesthetics.
+		</p>
+		<p>
+			I decided I wanted a new challenge and Podiatry was another passion of mine. I therefore took the opportunity to pursue this career at Salford University full time gaining my BSc (Hon) in podiatry. 
+		</p>
+		<p>
+			I have gained much experience working with other professional podiatrists over the years until I decided it was time to branch out on my own. And here I am, in my own clinic and enjoying all the challenges that come my way. I take pride in my work, I love my job from basic nail care to nail surgery. It gives me great pleasure to relieve someone with excruciation in growing toenails.
+		</p>
+		<p>
+			Everything that I do is within my scope of practice.
+		</p>
+  </div>  
+  <div class="column side">
+    <br>
+    <strong>Address:</strong>
+    <p>Mhari Morton<br>
+        103 Smithy Lane<br>
+        Ansdell<br>FY83PE</p>
+    <table>
+        <tr>
+            <th style="text-align:left">Opening:</th>
+            <th style="text-align: left;">Times:</th>
+        </tr>
+        <tr>
+            <td>Monday</td>
+            <td>8.30 - 5pm</td>
+        </tr>
+        <tr>
+            <td>Wednesday</td>
+            <td>8.30 - 5pm</td>
+        </tr>
+        <tr>
+            <td>Friday</td>
+            <td>8.30 - 5pm</td>
+        </tr>
+         <tr>
+            <td>Saturday</td>
+            <td>9.00 - 12 Noon</td>
+        </tr>
+    </table>
+  </div>
+</div>
+
+<!-- Row of buttons to jump into treatment details -->
+
+<hr>
+
+<div style="text-align: center; color: mediumOrchid;">
+    <h1>Treatments Available</h1>
+</div>
+<div class="center";>
+    <a href="./Podiatry.html">
+        <button class="button button1">Podiatry</button>
+    </a>
+    <a href="./Aesthetics.html">
+        <button class="button button1">Aesthetics</button>
+    </a>
+    <a href="./AntiWrinkleInjections.html">
+        <button class="button button1">Anti Wrinkle Injections</button>
+    </a>
+    <a href="./DermalFillers.html">
+        <button class="button button1">Dermal Fillers</button>
+    </a>
+    <a href="./WellBeing.html">
+        <button class="button button1">Well Being</button>
+    </a>
+</div>		
+
+<!-- Footer section -->
+
+<div>
+  <hr>
+  <p>© 2025 Smithy Lane Podiatry and Aesthetics
+</div>
+
+</body>
+</html>
+
+

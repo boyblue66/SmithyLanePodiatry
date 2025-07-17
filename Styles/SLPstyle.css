@@ -1,0 +1,68 @@
+biography {
+
+	column-count: 4;
+	column-gap: 30px;
+	column-rule: 1px solid MediumOrchid;
+	column-width: 30px;
+	text-align: justify;
+	text-justify: inter-word;
+}
+fillerline {
+	text-align: center;
+	font-size: 18pt;
+	background-color: MediumOrchid;
+	color: MediumOrchid;
+}
+text {
+	text-align: center;
+	font-size: 18pt;
+	background-color: MediumOrchid;
+}
+textlink {
+	text-align: center;
+	font-size: 18pt;
+	background-color: MediumOrchid;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 60%;		
+}
+centersmall {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 15%;
+}
+centersmall2 {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}		
+button {
+		border: double;
+		color: white;
+		padding: 15px 32px;
+		text-align: center;
+		text-decoration: none;
+		display: inline-block;
+		font-size: 14px;
+		margin: 4px 1px;
+		cursor: pointer;
+}
+button1 {background-color: MediumOrchid;
+	color: white;
+} 
+button1:hover {
+	background-color: MediumOrchid;
+	color: white;
+	border: 2px solid MediumOrchid;
+}
+
+body {
+  background-color: lightblue;
+}
